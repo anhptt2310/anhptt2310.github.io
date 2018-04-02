@@ -1,1 +1,52 @@
 *{margin:0; padding:0;}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+div#navbarCollapse {
+    position: relative;
+}
+
+ul.navbar-nav {
+    position: absolute;
+    right: 30px;
+    z-index: 2;
+}
+
+li.navbar-item {
+    margin: 0 17px;
+}
+
+a.nav-link {
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.navbar.navbar-dark.bg-dark.navbar-expand-lg.fixed-top {
+    background: #000!important;
+}
+
+a.navbar-brand.logo {
+    display: block;
+    width: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+.mid-cube1{
+    width: 100%;
+    height: 100%;
+    background: #e9585f;
+    position: relative;
+}
+.mid-cube1:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #e4555b;
+}
