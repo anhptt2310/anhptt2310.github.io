@@ -1,5 +1,34 @@
 *{margin:0; padding:0;}
 
+.mouse {
+    width: 40px;
+    height: 84px;
+    border: 1px solid white;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    border-radius: 30px;
+    transform: translateX(-50%);
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.mouse:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 3%;
+    transform: translateX(-50%);
+}
+
+.mouse:hover {
+    bottom: 4%;
+}
+
 .unit {
     font-size: 13px;
     margin-bottom: 26px;
@@ -98,7 +127,7 @@ a.logo{
 }
 .mid-cube1{
     width: 100%;
-    height: 100%;
+    height: 125%;
     background: #e9585f;
     position: relative;
 }
@@ -114,6 +143,22 @@ a.logo{
 
 @media (min-width: 320px) and (max-width:768px){
     *{}
+
+.col3 h2 {
+    margin-top: 25px;
+}
+
+.col-sm-4.col3 {
+    text-align: center;
+}
+
+.col-sm-4.col1 {
+    text-align: center;
+}
+
+h2.sub-title.text-uppercase.text-md-right.text-sm-center {
+    margin-top: 22px;
+}
 
 .mid-cube1 {
     margin-top: 50px;
